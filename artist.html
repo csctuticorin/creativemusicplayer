@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Music</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="artist.css">
+</head>
+<body>
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="musicplayer.html">
+        <img src="music player.jpg" alt="" width="80" height="50" class="d-inline-block align-text-top">
+        <h5 style="color: white;">Creative<i class="bi bi-play-circle-fill"></i> music</h5>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#head">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#start">Old hits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#meal">Hip-hop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#juice">Melody</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#rock">rock</a>
+          </li>
+        </ul>
+        <button class="btn btn-warning position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+          <h1><i class="bi bi-file-earmark-music-fill"></i></h1>
+            <span class="visually-hidden">unread messages</span>
+          </span></div>
+        </button>
+      </div>
+    </div>
+  </nav>
+    <section id="head">
+    <div class="imgs"><img src="music player.jpg" height="120" width="150" href="musicplayer.html"></div>
+    <div class="title"><h1 style="color: aliceblue;">Creative <i class="bi bi-play-circle-fill"></i> music</h1></div>
+    <div class="head"><h1 style="color: aliceblue;">Select your favourite</h1></div>
+    <div class="sub"><h1 style="color: aliceblue;">Artist</h1></div>
+  </section>
+  <section id="start">
+    <div class="start"><h1 style="color: yellow">Old hits</h1></div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <div class="card text-center" style="width: 18rem;" id="id1">
+            <div class="pic"><img src="singer 1.jpg" class="card-img-top" alt="SP.Balasubrahmanyam" height="250px"></div>
+            <div class="card-body">
+              <h5 class="card-title">SP.Balasubrahmanyam</h5>
+              <h6>Rating: <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i class="bi bi-star"></i></h6>
+              <button class="btn btn-warning addToCartBtn" data-artist-id="id1" data-artist-name="SP.Balasubrahmanyam"><i class="bi bi-file-earmark-music-fill"></i> Add to Favorites</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center" style="width: 18rem;" id="id2">
+            <div class="pic"><img src="singer 2.jpg" class="card-img-top" alt="Janaki" height="250px"></div>
+            <div class="card-body">
+              <h5 class="card-title">Janaki</h5>
+              <h6>Rating: <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i class="bi bi-star"></i><i class="bi bi-star"></i></h6>
+              <button class="btn btn-warning addToCartBtn" data-artist-id="id2" data-artist-name="Janaki"><i class="bi bi-file-earmark-music-fill"></i> Add to Favorites</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center" style="width: 18rem;" id="id3">
+            <div class="pic"><img src="singer.3.jpg" class="card-img-top" alt="K.S. Chitra" height="250px"></div>
+            <div class="card-body">
+              <h5 class="card-title">K.S. Chitra</h5>
+              <h6>Rating: <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></h6>
+              <button class="btn btn-warning addToCartBtn" data-artist-id="id3" data-artist-name="K.S. Chitra"><i class="bi bi-file-earmark-music-fill"></i> Add to Favorites</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="meal">
+    <div class="meal"><h1 style="color: yellow;text-align: center;">Hip-hop</h1></div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <div class="card text-center" style="width: 18rem;" id="id4">
+            <div class="pic"><img src="singer.4.webp" class="card-img-top" alt="Hip-hop Athi" height="250px"></div>
+            <div class="card-body">
+              <h5 class="card-title">Hip-hop Athi</h5>
+              <h6>Rating: <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h6>
+              <button class="btn btn-warning addToCartBtn" data-artist-id="id4" data-artist-name="Hip-hop Athi"><i class="bi bi-file-earmark-music-fill"></i> Add to Favorites</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center" style="width: 18rem;" id="id5">
+            <div class="pic"><img src="singer.5.jpg" class="card-img-top" alt="Anirudh Ravichander" height="250px"></div>
+            <div class="card-body">
+              <h5 class="card-title">Anirudh Ravichander</h5>
+              <h6>Rating: <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i class="bi bi-star"></i></h6>
+              <button class="btn btn-warning addToCartBtn" data-artist-id="id5" data-artist-name="Anirudh Ravichander"><i class="bi bi-file-earmark-music-fill"></i> Add to Favorites</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center" style="width: 18rem;" id="id6">
+            <div class="pic"><img src="singer.6.jpg" class="card-img-top" alt="Andrea Jeremiah" height="250px"></div>
+            <div class="card-body">
+              <h5 class="card-title">Andrea Jeremiah</h5>
+              <h6>Rating: <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i class="bi bi-star"></i><i class="bi bi-star"></i></h6>
+              <button class="btn btn-warning addToCartBtn" data-artist-id="id6" data-artist-name="Andrea Jeremiah"><i class="bi bi-file-earmark-music-fill"></i> Add to Favorites</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="juice">
+    <div class="juice"><h1 style="color: yellow; text-align: center;">Melody</h1></div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <div class="card text-center" style="width: 18rem;" id="id7">
+            <div class="pic"><img src="singer.7.jpg" class="card-img-top" alt="A.R. Rahman" height="250px"></div>
+            <div class="card-body">
+              <h5 class="card-title">A.R. Rahman</h5>
+              <h6>Rating: <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></h6>
+              <button class="btn btn-warning addToCartBtn" data-artist-id="id7" data-artist-name="A.R. Rahman"><i class="bi bi-file-earmark-music-fill"></i> Add to Favorites</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center" style="width: 18rem;" id="id8">
+            <div class="pic"><img src="singer.8.webp" class="card-img-top" alt="Jonita Gandhi" height="250px"></div>
+            <div class="card-body">
+              <h5 class="card-title">Jonita Gandhi</h5>
+              <h6>Rating: <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i class="bi bi-star"></i><i class="bi bi-star"></i></h6>
+              <button class="btn btn-warning addToCartBtn" data-artist-id="id8" data-artist-name="Jonita Gandhi"><i class="bi bi-file-earmark-music-fill"></i> Add to Favorites</button>
+            </div>
+          </div>          
+        </div>
+        <div class="col">
+          <div class="card text-center" style="width: 18rem;" id="id9">
+            <div class="pic"><img src="singer 9.jpg" class="card-img-top" alt="Shakthisree Gopalan" height="250px"></div>
+            <div class="card-body">
+              <h5 class="card-title">Shakthisree Gopalan</h5>
+              <h6>Rating: <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h6>
+              <button class="btn btn-warning addToCartBtn" data-artist-id="id9" data-artist-name="Shakthisree Gopalan"><i class="bi bi-file-earmark-music-fill"></i> Add to Favorites</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="rock">
+    <div class="rock"><h1 style="color: yellow; text-align: center;">Rock</h1></div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <div class="card text-center" style="width: 18rem;" id="id10">
+            <div class="pic"><img src="singer.10.jpg" class="card-img-top" alt="Vijay Antony" height="250px"></div>
+            <div class="card-body">
+              <h5 class="card-title">Vijay Antony</h5>
+              <h6>Rating: <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i class="bi bi-star"></i><i class="bi bi-star"></i></h6>
+              <button class="btn btn-warning addToCartBtn" data-artist-id="id10" data-artist-name="Vijay Antony"><i class="bi bi-file-earmark-music-fill"></i> Add to Favorites</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center" style="width: 18rem;" id="id11">
+            <div class="pic"><img src="singer.11.jpg" class="card-img-top" alt="Yuvan Shankar Raja" height="250px"></div>
+            <div class="card-body">
+              <h5 class="card-title">Yuvan Shankar Raja</h5>
+              <h6>Rating: <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i class="bi bi-star"></i></h6>
+              <button class="btn btn-warning addToCartBtn" data-artist-id="id11" data-artist-name="Yuvan Shankar Raja"><i class="bi bi-file-earmark-music-fill"></i> Add to Favorites</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center" style="width: 18rem;" id="id12">
+            <div class="pic"><img src="singer.12.jpg" class="card-img-top" alt="GV Prakash" height="250px"></div>
+            <div class="card-body">
+              <h5 class="card-title">GV Prakash</h5>
+              <h6>Rating: <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i class="bi bi-star"></i><i class="bi bi-star"></i></h6>
+              <button class="btn btn-warning addToCartBtn" data-artist-id="id12" data-artist-name="GV Prakash"><i class="bi bi-file-earmark-music-fill"></i> Add to Favorites</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <div class="offcanvas offcanvas-end bg-light" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Favorite Artists</h5><p style="color: red;">(please select one artist at the time)</p>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul id="cartList" class="list-group">
+        </ul>
+        <div class="text-center mt-3">
+          <button class="btn btn-success" id="confirmBtn">Confirm Selection</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="artist.js"></script>
+</body>
+</html>

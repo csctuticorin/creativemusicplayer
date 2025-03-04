@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Documentary</title>
+<link rel="stylesheet" href="music.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <a href="artist.html"><h2>Fav playlist</h2></a>
+    <form id="searchForm" class="d-flex">
+      <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button id="searchBtn" class="btn btn-success" type="submit">Search</button>
+    </form>
+    <ul id="playlist">
+        <li data-src="audio/song1.mp3">1. Ek Do Theen</li>
+        <li data-src="audio/song2.mp3">2. En Pulse Yethitu </li>
+        <li data-src="audio/song3.mp3">3. Engadi Porandha</li>
+        <li data-src="audio/song1.mp3">4. Google Google</li>
+        <li data-src="audio/song2.mp3">5. Idhu Varai</li>
+        <li data-src="audio/song3.mp3">6. Oo Soldriya </li>
+        <li data-src="audio/song3.mp3">7. Pookal Pookum</li>
+        <li data-src="audio/song1.mp3">8. Theeradha Vilayattu</li>
+        <li data-src="audio/song2.mp3">9. Un Mela AasaDhan</li>
+        <li data-src="audio/song3.mp3">10. Vaada Bin Laada</li>
+      </ul>
+    <ul id="suggestionsList" class="suggestions"></ul>
+  </div>
+  <div class="player">
+    <h2 id="currentSong">Whistle Podu</h2>
+    <div class="cd-container">
+      <div class="cd">
+        <img id="currentImage" src="whistle.jpg" alt="Album Cover">
+      </div>
+    </div>
+    <div class="audio-controls">
+      <canvas id="waveformCanvas" width="600" height="80"></canvas> 
+      <audio id="myAudio" controls onended="playNext()">
+        <source src="Whistle Podu(PagalWorld.com.so).mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="player-controls">
+      <div class="controls">
+        <button id="prevBtn" onclick="prevSong()"><i class="bi bi-skip-backward"></i></button>
+        <button id="playPauseBtn" onclick="togglePlayPause()"><i class="bi bi-play"></i></button>
+        <button id="nextBtn" onclick="nextSong()"><i class="bi bi-skip-forward"></i></button>
+      </div>
+      <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1" onchange="setVolume()">
+    </div>
+  </div>
+</div>
+ <script src="andrew.js"></script>
+</body>
+</html>

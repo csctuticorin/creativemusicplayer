@@ -1,0 +1,162 @@
+body{
+  background-color: rgb(32, 30, 30);
+
+}
+.imgs{
+  padding-top: 40px;
+  padding-left: 580px;
+}
+.container{
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.head{
+font-family: "Playwrite NL", cursive;
+font-optical-sizing: auto;
+font-weight: weights;
+font-style: normal;
+padding-left: 450px;
+padding-top:30px;
+text-shadow: 3px 3px purple;
+}
+.sub{
+  font-family: "Playwrite NL", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  padding-left:590px;
+  padding-top: 40px;
+  text-shadow: 3px 3px purple ;
+}
+.start{
+  font-family: "Playwrite IS", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  padding-left:540px;
+  padding-top:50px;
+}
+h5{
+  text-align: center;
+  font-style: italic;
+}
+.meal{
+  font-family: "Playwrite IS", cursive;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+}
+.bi-star-fill{
+  color:gold;
+}
+.bi-star-half{
+  color: gold;
+}
+.bi-star-empty{
+  color: gold;
+}
+.juice{
+  font-family: "Playwrite IS", cursive;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+}
+.card{
+   box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.thank{
+font-family: "Playwrite NL", cursive;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+  padding-left: 520px;
+   text-shadow: 3px 3px pink;
+}
+.visit{
+font-family: "Playwrite NL", cursive;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+  padding-left: 470px;
+  padding-bottom:30px;
+  text-shadow: 3px 3px pink;
+}
+.menu{
+text-align: center;
+}
+.title{
+font-family: "Playwrite NL", cursive;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+padding-left: 490px;
+padding-top:30px;
+text-shadow: 3px 3px red;
+}
+.card-img-top{
+  transition: 0.4s;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.pic:hover img{
+  transform: scale(1.5);
+  }
+  .pic{
+    overflow: hidden;
+  }
+.zero{
+  color:red;
+}
+
+.offcanvas-header {
+  background-color: #ffc107; 
+  color: #212529; 
+}
+
+.offcanvas-body {
+  padding: 1rem; 
+}
+
+.offcanvas-body .btn-success {
+  background-color: #28a745; 
+  border-color: #28a745; 
+}
+
+.offcanvas-body .btn-success:hover {
+  background-color: #218838; 
+  border-color: #1e7e34;
+}
+
+.offcanvas-body .list-group-item {
+  cursor: pointer; 
+}
+
+.offcanvas-body .list-group-item:hover {
+  background-color: #f8f9fa; 
+}
+.but{
+  padding-left: 1000px;
+}
+body {
+  padding-top: 56px; 
+}
+
+.navbar.fixed-top {
+  transition: top 0.3s;
+}
+
+.navbar.sticky {
+  top: 0;
+  background-color: #dc3545; 
+  z-index: 1000;
+}
+.bi-star{
+  color: gold;
+}
+.rock{
+  font-family: "Playwrite IS", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
