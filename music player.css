@@ -1,0 +1,139 @@
+body{
+    background-image:url("back\ 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: 85px;
+}
+.head{
+    text-align: center;
+    padding-top:150px;
+    color: yellow;
+    font-style: italic;
+    text-shadow:5px 5px blue;
+}
+.col{
+  align-items: center;
+}
+.topic{
+    text-align: center;
+    padding-top:30px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.con{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 100px;
+    font-weight: bold;
+}
+.but{
+    padding-left: 610px;
+}
+.bi-1{
+    color:aliceblue
+}
+.bi-2{
+    color: yellow;
+}
+.bi-4{
+    color: green;
+}
+.bi-5{
+    color: red;
+}
+.menu{
+    color: aliceblue;
+}
+.content{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    padding-left: 90px;
+    padding-right: 30px;
+}
+.sub{
+    font-size: 1.2rem;
+    color:white ;
+    text-align: center;
+
+}
+.main{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+     text-align: center;
+     color: white;
+}
+.total{
+    padding-top: 150px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo Black', sans-serif;
+  }
+  .navbar-brand {
+    font-size: 1.5rem; 
+  }
+  .total .main h1 {
+    font-size: 2.5rem;
+    color: white;
+  }
+  .total .content h3,  {
+    font-size: 1.2rem;
+    color:white ;
+  }
+  .but a.btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+  }  
+  @media (max-width: 768px) {
+    .btn-lg {
+      padding: 8px 16px;
+      font-size: 0.875rem; 
+    }
+  }
+  .btn {
+    display: inline-block;
+    background-color: #ffc107;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    animation: pulse 1s infinite alternate;
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.65);
+    }
+  }
+footer {
+  font-size: 1rem;
+  padding-top: 80px;
+}
+
+footer h5 {
+  cursor: pointer;
+}
+
+footer p {
+  font-size:
+  margin-bottom: 0;
+}
+footer .bi-caret-down-fill {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+.aboutus{
+  padding-top: 340px;
+}
+.col-sm-4{
+  padding-left: 100px;
+}

@@ -1,0 +1,47 @@
+.container{
+    padding-top: 80px;
+    background-image: url("background.jpg");
+    background-position-y: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.loginform{
+    width: 500px;
+    height: 550px;
+    text-align: center;
+}
+.head{
+    padding-bottom: 50px;
+    color:white;
+    font-style: italic;
+}
+body{
+    
+    background-image: url("back\ 2.jpg");
+    background-repeat: repeat;
+    background-size: 300px;
+
+}
+.icon-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.img{
+    padding-top: 130px;
+}
+.login{
+    padding-top:50px;
+    color: white;
+}
+.account{
+    padding-top: 30px;
+    color: white;
+}
+.d-grid{
+    padding-top: 10px;
+
+}
